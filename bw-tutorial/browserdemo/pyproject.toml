@@ -1,0 +1,49 @@
+[tool.briefcase]
+project_name = "Browser DEMO"
+bundle = "com.samesam"
+version = "0.0.1"
+url = "https://samesam.com/browserdemo"
+license = "BSD license"
+author = 'Sam Shan'
+author_email = "sam@samesam.com"
+
+[tool.briefcase.app.browserdemo]
+formal_name = "Browser DEMO"
+description = "Browser DEMO with beeware and toga"
+icon = "src/browserdemo/resources/browserdemo"
+sources = ['src/browserdemo']
+requires = []
+
+
+[tool.briefcase.app.browserdemo.macOS]
+requires = [
+    'toga-cocoa>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.browserdemo.linux]
+requires = [
+    'toga-gtk>=0.3.0.dev20',
+]
+system_requires = [
+    'libgirepository1.0-dev',
+    'libcairo2-dev',
+    'libpango1.0-dev',
+    'libwebkitgtk-3.0-0',
+    'gir1.2-webkit-3.0',
+]
+
+[tool.briefcase.app.browserdemo.windows]
+requires = [
+    'toga-winforms>=0.3.0.dev20',
+]
+
+# Mobile deployments
+[tool.briefcase.app.browserdemo.iOS]
+requires = [
+    'toga-iOS>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.browserdemo.android]
+requires = [
+    'toga-android>=0.3.0.dev20',
+]

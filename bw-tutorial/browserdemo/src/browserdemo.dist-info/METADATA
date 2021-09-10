@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.5
+Name: browserdemo
+Formal-Name: Browser DEMO
+App-ID: com.samesam.browserdemo
+Version: 0.0.1
+Home-page: https://samesam.com/browserdemo
+Author: Sam Shan
+Author-email: sam@samesam.com
+Summary: Browser DEMO with beeware and toga

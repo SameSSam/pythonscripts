@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.5
+Name: canvasdemo
+Formal-Name: Canvas Demo
+App-ID: com.samesam.canvasdemo
+Version: 0.0.1
+Home-page: https://samesam.com/canvasdemo
+Author: Sam Same
+Author-email: sam@samesam.com
+Summary: canvas of toga

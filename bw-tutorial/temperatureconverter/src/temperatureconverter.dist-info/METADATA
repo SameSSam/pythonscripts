@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.5
+Name: temperatureconverter
+Formal-Name: Temperature Converter
+App-ID: temperature.com.samesam.temperatureconverter
+Version: 0.0.1
+Home-page: https://samesam.com.temperature/temperatureconverter
+Author: Sam Shan
+Author-email: sam@samesam.com.temperature
+Summary: a Fahrenheit to Celsius converter

@@ -1,0 +1,49 @@
+[tool.briefcase]
+project_name = "Layout Examples"
+bundle = "layouts.com.samesam"
+version = "0.0.1"
+url = "https://samesam.com.layouts/layoutexamples"
+license = "BSD license"
+author = 'Sam Shan'
+author_email = "sam@samesam.com.layouts"
+
+[tool.briefcase.app.layoutexamples]
+formal_name = "Layout Examples"
+description = "for showing how is the layouts working"
+icon = "src/layoutexamples/resources/layoutexamples"
+sources = ['src/layoutexamples']
+requires = []
+
+
+[tool.briefcase.app.layoutexamples.macOS]
+requires = [
+    'toga-cocoa>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.layoutexamples.linux]
+requires = [
+    'toga-gtk>=0.3.0.dev20',
+]
+system_requires = [
+    'libgirepository1.0-dev',
+    'libcairo2-dev',
+    'libpango1.0-dev',
+    'libwebkitgtk-3.0-0',
+    'gir1.2-webkit-3.0',
+]
+
+[tool.briefcase.app.layoutexamples.windows]
+requires = [
+    'toga-winforms>=0.3.0.dev20',
+]
+
+# Mobile deployments
+[tool.briefcase.app.layoutexamples.iOS]
+requires = [
+    'toga-iOS>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.layoutexamples.android]
+requires = [
+    'toga-android>=0.3.0.dev20',
+]
